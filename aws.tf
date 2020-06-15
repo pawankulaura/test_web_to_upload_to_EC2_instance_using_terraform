@@ -117,7 +117,7 @@ provisioner "remote-exec" {
       "sudo mkfs.ext4  /dev/xvdh",
       "sudo mount  /dev/xvdh  /var/www/html",
       "sudo rm -rf /var/www/html/*",
-      "sudo git clone https://github.com/meabhishek06/cloudtera1.git /var/www/html/"
+      "sudo git clone https://github.com/pawankulaura/test_html_code.git /var/www/html/"
     ]
   }
 }
